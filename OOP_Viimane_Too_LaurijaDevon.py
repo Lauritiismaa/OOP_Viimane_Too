@@ -69,7 +69,7 @@ while tegelane1.elud > 0:
         tegelane1.kaotaelusi(vaenlane1.tugevus)
         vaenlane1.kaotaelusi(tegelane1.tugevus)
         if tegelane1.elud > 0:
-            msgbox("Vastane on surnud! Liigu edasi.")
+            msgbox("Vastane on surnud! Sul on alles " + str(tegelane1.elud) + " elu")
         else:
             msgbox("Oled surnud")
             
@@ -77,7 +77,7 @@ while tegelane1.elud > 0:
         tegelane1.kaotaelusi(vaenlane2.tugevus)
         vaenlane2.kaotaelusi(tegelane1.tugevus)
         if tegelane1.elud > 0:
-            msgbox("Vastane on surnud! Liigu edasi.")
+            msgbox("Vastane on surnud! Sul on alles " + str(tegelane1.elud) + " elu")
         else:
             msgbox("Oled surnud")
  
@@ -86,7 +86,7 @@ while tegelane1.elud > 0:
         tegelane1.kaotaelusi(vaenlane2.tugevus)
         vaenlane2.kaotaelusi(tegelane1.tugevus)
         if tegelane1.elud > 0:
-            msgbox("Vastane on surnud! Liigu edasi.")
+            msgbox("Vastane on surnud! Sul on alles " + str(tegelane1.elud) + " elu")
         else:
             msgbox("Oled surnud")
     
